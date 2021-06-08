@@ -94,3 +94,12 @@
 ### const word = _"Red";_
 ### numberOfOccurrencesInText(word, text);
 ### Expected Output: _3_
+
+<br >
+
+### Test: _"If an empty string is passed in as a word, it should return 0."_
+### Code:
+### const word = _"";_
+### const text = _"red RED Red!";_
+### wordCounter(word, text);
+### Expected Output: _0_
