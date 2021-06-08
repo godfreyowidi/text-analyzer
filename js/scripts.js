@@ -1,7 +1,7 @@
 // Business logic
 
-functionwordCounter(text) {
-  if (text.length === 0) {
+function wordCounter(text) {
+  if (text.trim().length === 0) {
     return 0;
   }
 }

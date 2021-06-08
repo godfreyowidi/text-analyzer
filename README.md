@@ -14,3 +14,13 @@
 ### Expected Output: _2_
 
 <br >
+
+### Test: _"It should return 0 for an empty string."_
+### Code: _wordCounter("");_
+### Expected Output: _0_
+
+<br >
+
+### Test: _"It should return 0 for a string that is only spaces."_
+### Code: _wordCounter("            ");_
+### Expected Output: _0_
