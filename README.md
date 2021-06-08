@@ -49,3 +49,25 @@
 ### const word = _"red";_
 ### numberOfOccurrencesInText(word, text);
 ### Expected Output: _1_
+
+<br >
+
+### Test: _"It should return 0 occurrences of a word when the word and the text are different."_
+### Code:
+### const text = _"red";_
+### const word = _"blue";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _0_
+
+<br >
+
+### Test: _"It should return the number of occurrences of a word."_
+### Code:
+### const text = _"red blue red red red green";_
+### const word = _"red";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _4_
+
+<br >
+
+
