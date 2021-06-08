@@ -24,3 +24,12 @@
 ### Test: _"It should return 0 for a string that is only spaces."_
 ### Code: _wordCounter("            ");_
 ### Expected Output: _0_
+
+<br >
+
+### Test: _"It should not count numbers as words."_
+### Code: _wordCounter("hi there 77 19");_
+### Expected Output: _2_
+
+<br >
+
