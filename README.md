@@ -76,3 +76,21 @@
 ### const word = +"red";_
 ### numberOfOccurrencesInText(word, text);
 ### Expected Output: _0_
+
+<br >
+
+### Test: _"It should return a word match regardless of case."_
+### Code:
+### const text = _"red RED Red green Green GREEN";_
+### const word = _"Red";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _3_
+
+<br >
+
+### Test: _"It should return a word match regardless of punctuation."_
+### Code:
+### const text = _"Red! Red. I like red, green, and yellow.";_
+### const word = _"Red";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _3_
