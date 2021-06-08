@@ -70,4 +70,9 @@
 
 <br >
 
-
+### Test: _"It should return 0 occurrences of a word for an empty string."_
+### Code:
+### const text = _"";_
+### const word = +"red";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _0_
