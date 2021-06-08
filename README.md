@@ -40,3 +40,12 @@
 ### const word = _"red";_
 ### numberOfOccurrencesInText(word, text);
 ### Expected Output: _0_
+
+<br >
+
+### Test: _"It should return 1 occurrence of a word when the word and the text are the same."_
+### Code:
+### const text = _"red";_
+### const word = _"red";_
+### numberOfOccurrencesInText(word, text);
+### Expected Output: _1_
